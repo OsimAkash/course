@@ -6,8 +6,14 @@ class HomeController extends Controller {
 
 
     public function index() {
-        return "I am from controller";
+
+        $this->data ['name']= "Osim akash";
+        $this->data ['roll']= 1125;
+        $this->data ['subject']=  ['bangla', 'English','Math'];
+        return view('home.index', $this->data);
     }
+
+
 }
 
 
