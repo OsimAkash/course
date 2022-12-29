@@ -8,5 +8,6 @@
 </head>
 <body>
     <h1>Welcome to contact page</h1>
+    <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae doloremque dolores sunt neque non, totam itaque quos debitis sed distinctio minus, excepturi eum cum illum possimus quasi minima. Vel, doloremque!   </p>
 </body>
 </html>

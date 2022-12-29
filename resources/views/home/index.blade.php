@@ -8,12 +8,19 @@
 </head>
 <body>
 
-    {{  $name; }} 
 
-    <h1>Welcome to home page</h1>
-    <h1>Welcome to home page</h1>
-    {{  $roll; }} 
-    <h2>Subject</h2>
-    <?php  echo $subject[1] ; ?>
+    <h1>Welcome to about page</h1>
+
+
+   Name: {{ $name }}
+</br>
+   Roll: {{ $roll }}
+</br>
+<h2>Subject</h2>
+{{ $subject ['0'] }} <br>
+{{ $subject ['1'] }} <br>
+{{ $subject ['2'] }}
+
+
 </body>
 </html>

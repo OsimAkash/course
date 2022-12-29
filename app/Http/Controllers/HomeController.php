@@ -6,12 +6,20 @@ class HomeController extends Controller {
 
 
     public function index() {
+        $data= [];
+   
+    $this->data['name']='Osim Akash';
+    $this->data [ 'roll']= '25';
+    $this->data['subject'] =['Bangla', 'English','Math'];
 
-        $this->data ['name']= "Osim akash";
-        $this->data ['roll']= 1125;
-        $this->data ['subject']=  ['bangla', 'English','Math'];
-        return view('home.index', $this->data);
-    }
+
+    return view('home.index', $this->data);
+
+
+
+
+
+    }        
 
 
 }
